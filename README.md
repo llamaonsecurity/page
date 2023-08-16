@@ -11,6 +11,6 @@ chruby ruby-3.0.2
 # serve
 bundle exec jekyll serve --livereload
 # build for production
-jekyll build
+bundle exec jekyll build
 
 ```
