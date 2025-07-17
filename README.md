@@ -15,3 +15,11 @@ bundle exec jekyll build
 echo "dkalinowski.me" > CNAME
 cp CNAME _site/CNAME 
 ```
+# Deploy
+
+```
+cd _site
+git add .
+git commit
+git push origin
+```
