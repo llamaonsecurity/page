@@ -12,5 +12,6 @@ chruby ruby-3.0.2
 bundle exec jekyll serve --livereload
 # build for production
 bundle exec jekyll build
-
+echo "dkalinowski.me" > CNAME
+cp CNAME _site/CNAME 
 ```
